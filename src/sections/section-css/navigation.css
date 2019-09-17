@@ -1,0 +1,96 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  background: #000120;
+  top: 0;
+  height: 56px;
+  left: 0;
+  font-size: 1.4rem;
+  cursor: pointer;
+  /* position: fixed;
+  top: 0; 
+  width: 100%;
+  list-style: none;
+  text-align: right;
+  color: white;
+  font-size: 16px;
+  padding-right: 20px;
+  display: inline;
+  padding-right: 10%;
+  cursor: pointer;
+  padding-top: 2%; */
+}
+
+/*.navbar {
+  background: #0f0f1b;  fallback for old browsers */
+/* background: -webkit-linear-gradient(
+    to right,
+    #000120,
+    #0e0e1e,
+    #0f0f1b
+  );  Chrome 10-25, Safari 5.1-6 */
+/*background: linear-gradient(
+    to right,
+    #000120,
+    #0e0e1e,
+    #0f0f1b
+  );  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/* height: 5vh;
+  opacity: 0.8;
+} */
+.navbar_navigation {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.navbar_navigation-items {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  padding-right: 4rem;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.navbar > .active {
+  border-bottom: 4px solid white;
+}
+
+.navbar a:hover,
+.navbar a:active {
+  color: #ffd200;
+}
+
+.link {
+  margin-right: 5%;
+  color: white;
+}
+
+.nav_logo {
+  width: 170px;
+  float: left;
+  padding-left: 5%;
+  margin-left: 1rem;
+}
+
+@media (max-width: 767px) {
+  /*mobile nav*/
+  .navbar_navigation-items {
+    display: none;
+  }
+}
+@media (min-width: 769px) {
+  .navbar_toggle-button {
+    display: none;
+  }
+
+  .nav_logo {
+    margin-left: 0;
+  }
+}
+
+/*navigation*/
