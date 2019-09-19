@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 import me from "../images/David1.png";
+import '../sections/section-css/main.css'
 
 class Main extends Component {
   state = {};

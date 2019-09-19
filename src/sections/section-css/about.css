@@ -1,0 +1,41 @@
+.about-section {
+  height: 100%;
+  background-color: #d8d8d8;
+  padding-top: 3%;
+}
+
+#about hr {
+  z-index: 2;
+  border-color: #000120;
+  padding: 0;
+  border: none;
+  border-top: solid 5px;
+  text-align: center;
+  max-width: 250px;
+  margin: 25px auto 30px;
+  color: #000120;
+}
+
+.about-left-col {
+  padding-top: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.about-right-col {
+  padding: 2em;
+}
+
+.about-image {
+  height: 450px;
+}
+
+@media (max-width: 769px) {
+  .about-image {
+    padding-left: 40%;
+  }
+
+  .about-right-col {
+    padding-left: 15%;
+  }
+}

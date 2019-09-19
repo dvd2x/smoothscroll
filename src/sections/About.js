@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 import DavidImage from "../images/David3.png";
+import "../sections/section-css/about.css";
 
 class About extends Component {
   render() {
@@ -11,11 +12,7 @@ class About extends Component {
         <Grid>
           <Cell col={5} className="about-left-col">
             <div style={{ textAlign: "center" }}>
-              <img
-                src={DavidImage}
-                alt="David"
-                style={{ height: "450px", borderRadius: "10%" }}
-              />
+              <img className="about-image" src={DavidImage} alt="David" />
             </div>
           </Cell>
           <Cell col={7} className="about-right-col">
@@ -26,14 +23,14 @@ class About extends Component {
                 fontFamily: "oxygen"
               }}
             >
-              My name is David Piper, I'm
-              a Full-Stack Web Developer from Detroit. I love to create and build
-              websites which are mobile-first ready, fully responsive, minimal,
-              SEO friendly and at the same time attractive and user-friendly for
-              individuals, startups, businesses etc. I built my portfolio site
-              from the grounds up by using all the skills that I know. I also
-              have some fairly basic knowledge of Web/Graphic Design. I'm always
-              motivated and have the desire to learn more.
+              My name is David Piper, I'm a Full-Stack Web Developer from
+              Detroit. I love to create and build websites which are
+              mobile-first ready, fully responsive, minimal, SEO friendly and at
+              the same time attractive and user-friendly for individuals,
+              startups, businesses etc. I built my portfolio site from the
+              grounds up by using all the skills that I know. I also have some
+              fairly basic knowledge of Web/Graphic Design. I'm always motivated
+              and have the desire to learn more.
               <br />
               <br />
               While I'm not debugging some code or trying to position elements

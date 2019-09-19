@@ -1,21 +1,12 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 import logo from "../images/logo.png";
+import '../sections/section-css/footer.css'
 
 class Footer extends Component {
   render() {
     return (
       <div className="footer-section" id="footer">
-        <div className="footer-logo">
-          <img src={logo} alt="logo" className="logo-footer" />
-        </div>
-        <div className="footer-text">
-          <p>
-            Web developer/designer, autodidact, tech writer and problem solver.
-            I love hiking, recording music, and building communities.
-          </p>
-          <hr />
-        </div>
         <div className="social-links-footer">
           {/*LinkedIn*/}
           <a href="http://google.com" rel="noopener noreferrer" target="_blank">
@@ -30,7 +21,10 @@ class Footer extends Component {
             <i className="fa fa-twitter-square" aria-hidden="true" />
           </a>
         </div>
-        <div style={{ color: "white", paddingLeft: "3%" }}>
+        <div
+          className="footer-text"
+          style={{ color: "white", paddingLeft: "3%" }}
+        >
           <p>Copyright © 2019 | Coded By David Piper</p>
         </div>
       </div>
