@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/smoothscroll/static/css/main.5d4a1079.chunk.css",
-    "main.js": "/smoothscroll/static/js/main.daa6d6a5.chunk.js",
-    "main.js.map": "/smoothscroll/static/js/main.daa6d6a5.chunk.js.map",
+    "main.css": "/smoothscroll/static/css/main.7ed18809.chunk.css",
+    "main.js": "/smoothscroll/static/js/main.9625db52.chunk.js",
+    "main.js.map": "/smoothscroll/static/js/main.9625db52.chunk.js.map",
     "runtime~main.js": "/smoothscroll/static/js/runtime~main.802c6a90.js",
     "runtime~main.js.map": "/smoothscroll/static/js/runtime~main.802c6a90.js.map",
     "static/css/2.60a6b8e0.chunk.css": "/smoothscroll/static/css/2.60a6b8e0.chunk.css",
-    "static/js/2.b3be49ee.chunk.js": "/smoothscroll/static/js/2.b3be49ee.chunk.js",
-    "static/js/2.b3be49ee.chunk.js.map": "/smoothscroll/static/js/2.b3be49ee.chunk.js.map",
+    "static/js/2.727fb5b4.chunk.js": "/smoothscroll/static/js/2.727fb5b4.chunk.js",
+    "static/js/2.727fb5b4.chunk.js.map": "/smoothscroll/static/js/2.727fb5b4.chunk.js.map",
     "index.html": "/smoothscroll/index.html",
-    "precache-manifest.70d901698c5abe8e20b72e1ac456df26.js": "/smoothscroll/precache-manifest.70d901698c5abe8e20b72e1ac456df26.js",
+    "precache-manifest.c6f43df6c1742a6b948faa88916e852f.js": "/smoothscroll/precache-manifest.c6f43df6c1742a6b948faa88916e852f.js",
     "service-worker.js": "/smoothscroll/service-worker.js",
     "static/css/2.60a6b8e0.chunk.css.map": "/smoothscroll/static/css/2.60a6b8e0.chunk.css.map",
-    "static/css/main.5d4a1079.chunk.css.map": "/smoothscroll/static/css/main.5d4a1079.chunk.css.map",
-    "static/media/David1.png": "/smoothscroll/static/media/David1.1fda96b3.png",
+    "static/css/main.7ed18809.chunk.css.map": "/smoothscroll/static/css/main.7ed18809.chunk.css.map",
     "static/media/David3.png": "/smoothscroll/static/media/David3.e1299d60.png",
-    "static/media/App.css": "/smoothscroll/static/media/wisenote.3b1787dd.png",
-    "static/media/logo.png": "/smoothscroll/static/media/logo.64aa0f2d.png"
+    "static/media/projects.css": "/smoothscroll/static/media/wisenote.3b1787dd.png",
+    "static/media/App.css": "/smoothscroll/static/media/detroitskyline.7ab6bc50.png",
+    "static/media/logo.png": "/smoothscroll/static/media/logo.4cdb920b.png"
   }
 }
