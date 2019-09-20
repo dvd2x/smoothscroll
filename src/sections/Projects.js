@@ -12,6 +12,7 @@ import {
   IconButton,
   CardText
 } from "react-mdl";
+import './section-css/projects.css'
 
 class Projects extends Component {
   constructor(props) {

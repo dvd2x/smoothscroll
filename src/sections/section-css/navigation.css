@@ -3,7 +3,7 @@
   width: 100%;
   background: #000120;
   top: 0;
-  height: 56px;
+  height: 76px;
   left: 0;
   font-size: 1.4rem;
   cursor: pointer;
@@ -70,8 +70,8 @@
   color: white;
 }
 
-.nav_logo {
-  width: 170px;
+.nav_logo img{
+  width: 80px;
   float: left;
   padding-left: 5%;
   margin-left: 1rem;

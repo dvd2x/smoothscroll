@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 import logo from "../images/logo.png";
-import '../sections/section-css/footer.css'
+import './section-css/footer.css'
 
 class Footer extends Component {
   render() {
@@ -23,7 +23,6 @@ class Footer extends Component {
         </div>
         <div
           className="footer-text"
-          style={{ color: "white", paddingLeft: "3%" }}
         >
           <p>Copyright © 2019 | Coded By David Piper</p>
         </div>

@@ -31,10 +31,13 @@
   padding-left: 32%;
 } NOTHING */
 
-.content {
+.content{
   display: flex;
-  /* flex-direction: column; */
 }
+/* .content {
+  display: flex; */
+  /* flex-direction: column; */
+/* } */
 
 .fa {
   /* display: flex;
@@ -71,5 +74,12 @@
  
   .space {
     padding-left: .01%;
+  }
+  .space p{
+    width: 160px;
+    overflow: visible;
+  }
+  .mdl-list__item-primary-content .content-list{
+    width:30% !important;
   }
 }

@@ -15,7 +15,7 @@ class Navbar extends Component {
           </div>
           <div className="nav_logo">
             <a href="/">
-              <img src={logo} alt="logo" style={{ width: "170px" }} />
+              <img src={logo} alt="logo" />
             </a>
           </div>
           <div className="spacer" />

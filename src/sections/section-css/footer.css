@@ -1,24 +1,25 @@
 .footer-section {
   background: #000120;
-  height: 25%;
-  bottom: 0;
+  padding:2%;
+  width: 100%;
+  color: white;
+  height: 20vh;
 }
 
-.logo-footer {
+/* .logo-footer {
   width: 170px;
   padding-top: 3%;
   position: absolute;
   left: 0;
   right: 0;
   margin: auto;
-}
+} */
 
 .footer-text p {
   color: white;
   text-align: center;
   width: 100% !important;
   font-size: 16px;
-  padding-bottom: 2%;
   display: block;
   margin-left: atuo;
   margin-right: auto;
@@ -29,17 +30,29 @@
   justify-content: space-between;
   width: 10%;
   margin: auto;
-  padding-top: 3%;
+  padding-top: 2%
 }
 
-/* .social-links-footer i {
+.social-links-footer i {
   color: white;
   font-size: 3em;
   padding: 8px;
-} */
+}
 
 #copyright p {
   font-size: 2em;
   padding-left: 33%;
   width: 100%;
 }
+
+.footer-text p{
+  color: white;
+}
+
+@media (max-width: 769px) {
+  .social-links-footer {
+    padding-right:40%
+  }
+
+}
+

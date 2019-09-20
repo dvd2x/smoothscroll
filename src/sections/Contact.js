@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Cell, ListItem, List, ListItemContent } from "react-mdl";
-import "./section-css/contact.css";
+import './section-css/contact.css'
 
 class Contact extends Component {
   render() {
